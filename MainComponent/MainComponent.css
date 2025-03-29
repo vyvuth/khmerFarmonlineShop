@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanuman", serif;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px;
+}
+header .logo {
+  width: 19%;
+  height: auto;
+  background-color: red;
+  padding: 15px;
+}
+header .manu-bar {
+  width: 49%;
+  height: auto;
+  background-color: aquamarine;
+  padding: 15px;
+}
+header .search-bar {
+  width: 19%;
+  height: auto;
+  background-color: brown;
+  padding: 15px;
+}
+.container-fluid .carosal {
+  width: 100%;
+  height: 50vh;
+  background-color: crimson;
+  margin-top: 15px;
+}
+.container-fluid .slide-image {
+  width: 100%;
+  height: 60vh;
+  background-color: chartreuse;
+  margin-top: 25px;
+}
